@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "yass-zz-de-multimodal_jd131"
+name = "yass-zz-de-jailbreak_template_variants_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://yass-zz-de.github.io"
-Repository = "https://github.com/yass-zz-de/multimodal_jd131"
-Issues = "https://github.com/yass-zz-de/multimodal_jd131/issues"
+Repository = "https://github.com/yass-zz-de/jailbreak_template_variants_threshold_scan"
+Issues = "https://github.com/yass-zz-de/jailbreak_template_variants_threshold_scan/issues"
 
 [project.scripts]
-multimodal_jd131 = "multimodal_jd131:main"
+jailbreak_template_variants_threshold_scan = "jailbreak_template_variants_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["multimodal_jd131"]
+py-modules = ["jailbreak_template_variants_threshold_scan"]

@@ -1,11 +1,11 @@
-# multimodal_jd131
+# jailbreak_template_variants_threshold_scan
 
 **给多模态算法研究员·越狱模板的变体识别打分并按阈值给出通过与否。**
 
-`multimodal_jd131` —— 为每一项打分并与阈值比较，明确标出通过、边界与不通过三档
+`jailbreak_template_variants_threshold_scan` —— 为每一项打分并与阈值比较，明确标出通过、边界与不通过三档
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`multimodal_jd131.py` 拷走就能用
+- 单文件，`jailbreak_template_variants_threshold_scan.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install yass-zz-de-multimodal_jd131
+pip install yass-zz-de-jailbreak_template_variants_threshold_scan
 ```
 
 装完直接用命令名调用：
 
 ```bash
-multimodal_jd131 --help
+jailbreak_template_variants_threshold_scan --help
 ```
 
-也可以不用安装，直接把 `multimodal_jd131.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `jailbreak_template_variants_threshold_scan.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ multimodal_jd131 --help
 ## 用法
 
 ```bash
-python multimodal_jd131.py --file input.txt
-python multimodal_jd131.py --text "示例内容"
-python multimodal_jd131.py --file input.txt --json
+python jailbreak_template_variants_threshold_scan.py --file input.txt
+python jailbreak_template_variants_threshold_scan.py --text "示例内容"
+python jailbreak_template_variants_threshold_scan.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python multimodal_jd131.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_multimodal_jd131.py
+python test_jailbreak_template_variants_threshold_scan.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_multimodal_jd131.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/yass-zz-de/multimodal_jd131>
+- GitHub 仓库：<https://github.com/yass-zz-de/jailbreak_template_variants_threshold_scan>
 
 ---
 
@@ -79,7 +79,7 @@ python test_multimodal_jd131.py
 yass-zz-de 做多模态算法研究员·越狱模板的变体识别相关的问题，方向对标银河通用的资深多模态算法研究员岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://yass-zz-de.github.io>
-- 仓库：<https://github.com/yass-zz-de/multimodal_jd131>
+- 仓库：<https://github.com/yass-zz-de/jailbreak_template_variants_threshold_scan>
 
 ## 许可
 
